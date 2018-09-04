@@ -53,6 +53,12 @@
     <Compile Include="FileProcessTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyClasses\MyClasses.csproj">
+      <Project>{fb46192a-628c-497b-9162-11fee70c3f97}</Project>
+      <Name>MyClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
